@@ -3,9 +3,9 @@ html{
     scroll-behavior: smooth;
 }
 
-body { margin: 15%;
-    background-color: brown;
-
+body {
+    margin: 0;
+    background-color: rgba(241, 224, 147, 0.925);
 }
 
 
@@ -17,5 +17,83 @@ header {
     justify-content: space-between;
 }
 
+.logo-header {
+    width: 20%;
+}
 
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: rgb(255, 8, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+#Mundoinvertido {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    font-size: 30px;
+}
+
+#Mundoinvertido div{
+    width: 50%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 50px;
+    color: rgb(209, 61, 23);
+}
+
+#Curiosidades{ 
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(216, 6, 6);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(14, 3, 1);
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+#melhoresmusicas{ 
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(216, 6, 6);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(14, 3, 1);
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+footer{ 
+    background-color: rgb(151, 8, 3);
+    color: rgb(14, 3, 1);
+    margin: 0;
+    text-align: center;
+    padding-top: 2px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.direitos-autorais{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
 
