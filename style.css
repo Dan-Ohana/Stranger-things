@@ -1,0 +1,21 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body { margin: 15%;
+    background-color: brown;
+
+}
+
+
+header {
+    display: flex;
+    padding-left:  150px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
